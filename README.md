@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
     super() is used to replave the .create() method and helps to initialize the parent attributes into the child object.
-    
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -49,13 +49,13 @@ You are expected to be able to answer questions in these areas. Your responses c
 Using VSCode and Command Line:
 
 
-1. Fork the repo
-2. Go into canvas and connect your repo to codegrade
-3. Clone your forked version of the repo
-4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
-5. cd into your repo
-6. open the terminal in your vs code and type `npm install`
-7. next type `npm run test` in your terminal
+1. Fork the repo [x]
+2. Go into canvas and connect your repo to codegrade [x]
+3. Clone your forked version of the repo [x]
+4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today [x]
+5. cd into your repo [x]
+6. open the terminal in your vs code and type `npm install` [x]
+7. next type `npm run test` in your terminal [x]
 8. Complete your work making regular commits to main/master; your codegrade score will update each time you make a push.
 
 
