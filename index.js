@@ -13,10 +13,12 @@ function myFunction() {
   }
   nestedFunction();
 }
-//myFunction();
+myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-
+/*
+  In this example, the external variable is a global variable and can be accessed throughout the code, while the internal variable is only accessible by the myFunction function. Meaning if you wanted to use the internal variable elsewhere in the code, it wouldn't know what you're talking about.
+*/
 
 
 
