@@ -25,14 +25,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+    .map can be used to create a new array without modifying the original array. .reduce can be used to combine all the elements of an array, such as adding a list on integers, to give back one total value. .filter can be used to narrow down an array, such as selecting only values within a specific range such as begining with a specific letter.
 
 2. Explain the difference between a callback and a higher order function.
+    A callback function is a functioned that is passed as a parameter into another function, whereas the higher order function is the function recieving the callback function as a parameter.
 
 3. Explain what a closure is.
+    A closure is created in a function and explains the scope of said function. For example, if you create a function within a function you can use the scope of the main function within the subsidairy function, but not the other way around.
 
 4. Describe the four principles of the 'this' keyword.
+    "this" is used to refer to the object that it is made in, and the principles of it are Default Binding, Implicit Binding, Explicit Binding, and Contructor Call Binding. Default Binding means that the binding is going to the default object, which is the global object. Implicit Binding is used to bind to a new object that is made from a function. Explicit Binding is used to override the binding and give it a new value, such as using .apply
 
 5. Why do we need super() in an extended class?
+    super() is used to replave the .create() method and helps to initialize the parent attributes into the child object.
+    
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
