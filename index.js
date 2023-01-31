@@ -32,10 +32,16 @@ myFunction();
 💡 NOTE: you may use a for loop for this function if you wish 
 */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
-
+function summation(num) {
+  let sum = 0;
+  //Starting at the parameter number, add to the sum and subtract 1 from i until you reach 0
+  for (let i = num; i > 0; i--) {
+    sum += i;
   }
+  //Note - Could be accomplished in reverse by starting at 1 and adding 1 to i until you reach the parameter number
+  return sum;
+}
+console.log(summation(4));
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
