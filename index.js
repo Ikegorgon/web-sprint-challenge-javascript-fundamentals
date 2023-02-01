@@ -33,12 +33,17 @@ myFunction();
 */
 
 function summation(num) {
+  // Create new number variable
   let sum = 0;
-  //Starting at the parameter number, add to the sum and subtract 1 from i until you reach 0
+
+  // Starting at the parameter number, add to the sum and subtract 1 from i until you reach 0
+
   for (let i = num; i > 0; i--) {
     sum += i;
   }
-  //Note - Could be accomplished in reverse by starting at 1 and adding 1 to i until you reach the parameter number
+  // Note - Could be accomplished in reverse by starting at 1 and adding 1 to i until you reach the parameter number
+
+  // Return new number variable
   return sum;
 }
 console.log(summation(4));
@@ -68,9 +73,19 @@ const zooAnimals = [
   💡 NOTE: the array returned should be an array of strings, and each string should follow this pattern: "name: {name}, scientific: {scientific name}"
   */
 
-  function animalNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function animalNames(zooAnimalsArray){
+    // Created new array
+    let displayNames = [];
+
+    // Populate new array with a string containing the Animal Name and Scientific Name for each Animal in zooAnimalsArray
+    zooAnimalsArray.forEach(animal => {
+      displayNames.push(`name: ${animal.animal_name}, scientific: ${animal.scientific_name}`);
+    });
+
+    // Return new array
+    return displayNames;
   }
+  console.log(animalNames(zooAnimals));
   
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
