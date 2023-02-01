@@ -136,10 +136,10 @@ const zooAnimals = [
   */
 
   function USApop(zooAnimalsArray){
-    // Create new array
+    // Create new variable based off the total population for each animal in zooAnimalsArray
     let usPop = zooAnimalsArray.reduce((totalPop, animal) => totalPop + animal.population, 0);
 
-    // Return new array
+    // Return new variable
     return usPop;
   }
   console.log(USApop(zooAnimals));
@@ -154,8 +154,9 @@ const zooAnimals = [
     💡 NOTE: The tests for 'consume' will pass if it is created correctly and also after you correctly complete the functions 'add' and 'greeting' below in Step 2.
   */
 
-  function consume(/*Your Code Here */){
-    /*Your Code Here */
+  function consume(a, b, cb){
+    // Return the callback function with the parameters of a and b
+    return cb(a, b);
   }
  
   
@@ -166,9 +167,10 @@ const zooAnimals = [
  2. Return the sum of those numbers
  */
 
-function add(/*Your Code Here */){
-    /*Your Code Here*/
-  }
+function add(a, b){
+  // Return sum of a & b
+  return a + b;
+}
 
 
 /* Use multiply to do the following:
@@ -176,9 +178,10 @@ function add(/*Your Code Here */){
 2. Return the product of those numbers
 */
 
-function multiply(/*Your Code Here */){
-   /*Your Code Here */
-  }
+function multiply(a, b){
+  // Return multiplication of a time b
+  return a * b;
+}
 
 
  /* Use greeting to do the following:
@@ -187,16 +190,16 @@ function multiply(/*Your Code Here */){
 💡 NOTE: The string returned must match the format above or the test will not pass!
 */
 
-function greeting(/*Your Code Here */){
-   return /*Your Code Here */
-  }
+function greeting(a, b){
+  return `Hello ${a} ${b}, nice to meet you!`;
+}
   
   
 // 🦁🦁🦁 Step 3: Check your work by un-commenting the following calls to consume(): 🦁🦁🦁 
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-// console.log(consume(2, 2, add)); // 4
-// console.log(consume(10, 16, multiply)); // 160
-// console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+console.log(consume(2, 2, add)); // 4
+console.log(consume(10, 16, multiply)); // 160
+console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
 
