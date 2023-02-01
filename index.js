@@ -98,9 +98,14 @@ const zooAnimals = [
   💡 NOTE: Do some research for other methods that can help help you
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(zooAnimalsArray){
+    // Convert zooAnimalsArray to Lowercase and add to a new array
+    let lowerCaseNames = zooAnimalsArray.map(animal => animal.animal_name.toLowerCase());
+
+    // Return new array
+    return lowerCaseNames;
   }
+  console.log(lowerCaseNames(zooAnimals));
   
   
   /* 🦁🦁🦁 Request 3: .filter() 🦁🦁🦁
